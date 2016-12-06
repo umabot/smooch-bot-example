@@ -1,0 +1,7 @@
+{
+    "BOT": "Hi there!\nI’m the personal bot of Silvio, an MSE candidate.\n!,
+    "HELLO": "Hey, I'm so glad you set UmaBot up! Do you want to tell Silvio that you're talking to her bot? %[Tell her](postback:twitter)",
+    "TELL HER": "Let's tweet @ Silvio so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
+    "CONNECT ME": "",
+    "DISCONNECT": "Roger that, UmaBot is back."
+}
