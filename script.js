@@ -22,8 +22,7 @@ Is that OK?`))
 		}
 	},
 	askExperience1990: {
-		prompt: (bot) => bot.say('Silvio started as a programmer in Telecom Argentina in the early 90s'),
-		prompt: (bot) => bot.say('Developing network assignment software and billing. From there he took the opportunity to start working as a consultant in PeopleSoft'),
+		prompt: (bot) => bot.say('Silvio started as a programmer in Telecom Argentina in the early 90s \nDeveloping network assignment software and billing. From there he took the opportunity to start working as a consultant in PeopleSoft'),
     receive: (bot, message) => {
 			const name = message.text;
 			return bot.setProp('name', name)
@@ -34,8 +33,7 @@ Is that OK?`))
 	},
   
 	askExperience2000: {
-		prompt: (bot) => bot.say('PeopleSoft were her first year as a technical pre sales'),
-		prompt: (bot) => bot.say('And in 2000 he accepted the offer to start a regional role as pre sales for Epiphany LATAM with Chris Ciauri'),
+		prompt: (bot) => bot.say('PeopleSoft were her first year as a technical pre sales\nAnd in 2000 he accepted the offer to start a regional role as pre sales for Epiphany LATAM with Chris Ciauri'),
     receive: (bot, message) => {
 			const name = message.text;
 			return bot.setProp('name', name)
@@ -47,9 +45,7 @@ Is that OK?`))
   
   
 	askExperience2004: {
-		prompt: (bot) => bot.say('In 2004 a previous colleague from PeopleSoft asked him to come to EDS'),
-		prompt: (bot) => bot.say('He morphed the traditional role of SA in EDS into pre sales to renegotiate a 10 million USD deal'),
-		prompt: (bot) => bot.say('And also started the BI practice in EDS Argentina'),
+		prompt: (bot) => bot.say('In 2004 a previous colleague from PeopleSoft asked him to come to EDS\nHe morphed the traditional role of SA in EDS into pre sales to renegotiate a 10 million USD deal\nAnd also started the BI practice in EDS Argentina'),
     receive: (bot, message) => {
 			const name = message.text;
 			return bot.setProp('name', name)
@@ -60,9 +56,7 @@ Is that OK?`))
 	},
 
 	askExperience2008: {
-		prompt: (bot) => bot.say('In 2008 he decided to follow her spouse to Asia. And work from Singapore for Infor as pre sales for CRM division'),
-		prompt: (bot) => bot.say('Loved Asia and Australia, but too much travel and decided in 2011 to work for Freebalance and deploy datacenters and FMIS for East Timor gov'),
-		prompt: (bot) => bot.say('And became Master Scuba Diver'),
+		prompt: (bot) => bot.say('In 2008 he decided to follow her spouse to Asia. And work from Singapore for Infor as pre sales for CRM division\nLoved Asia and Australia, but too much travel and decided in 2011 to work for Freebalance and deploy datacenters and FMIS for East Timor gov\nAnd became Master Scuba Diver'),
     receive: (bot, message) => {
 			const name = message.text;
 			return bot.setProp('name', name)
@@ -73,9 +67,7 @@ Is that OK?`))
 	},
   
 	askExperience2013: {
-		prompt: (bot) => bot.say('After a brief period in Malta, to became PRINCE2, Diving Instructor and Tech50 certified, he got a SE job in Salesforce'),
-		prompt: (bot) => bot.say('And here he is'),
-		prompt: (bot) => bot.say('Trying to became an MSE and planning for her next career move: DTA in Salesforce'),
+		prompt: (bot) => bot.say('After a brief period in Malta, to became PRINCE2, Diving Instructor and Tech50 certified, he got a SE job in Salesforce\nAnd here he is\nBecoming an MSE and planning for her next career move: DTA in Salesforce'),
     receive: (bot, message) => {
 			const name = message.text;
 			return bot.setProp('name', name)
